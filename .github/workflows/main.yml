@@ -9,6 +9,7 @@ on:
   pull_request:
     branches:
       - master
+  workflow_dispatch:        # allow manual run
 
 env:
   TZ: Asia/Bangkok # ตั้ง Time Zone เป็น Asia/Bangkok
