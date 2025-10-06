@@ -2,7 +2,7 @@ name: Sync EPG Files and Run Tempest Script
 
 on:
   schedule:
-    - cron: "30 17 * * *"
+#    - cron: "30 17 * * *"
   push:
     branches:
       - master
